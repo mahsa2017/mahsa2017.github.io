@@ -1,0 +1,90 @@
+body {
+  margin-top: 40px;
+  background-image: url("https://preview.ibb.co/fwiVc5/Beautiful_Golden_Glitter_Background.jpg");
+}
+.main-title {
+  text-align: center;
+  color: gold;
+  font-style: bold;
+  font-family: bodoni;
+  font-size: 40px;
+  padding: 6px 10px 10px 10px;
+}
+#header {
+  background-image: url("http://www.elranchodesalva.com/wp-content/uploads/2015/11/shiny-gold-wavy-texture-abstract-background-header.jpg");
+  background-color: #20b2aa;
+  padding: 5px;
+  margin: 1px 1px 50px 1px;
+  border: solid 1px gold;
+}
+.logo {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 100px;
+  border: solid 1px gold;
+}
+.panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #014040;
+  border: solid 1px gold;
+  color: gold;
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 5px 800px 0px 10px;
+  background-image: url("https://preview.ibb.co/nGsGp5/free_strass_vector_gold_glitter_texture_on_black_background.jpg");
+}
+.panel {
+  padding: 10px;
+  display: none;
+  color: #a4fefe;
+}
+
+#image {
+  width: 400px;
+  margin-left: 10px;
+  float: right;
+  border: solid 1px gold;
+}
+
+.first-p {
+  font-size: 1em;
+  color: #a4fefe;
+  font-family: bodoni;
+  background-color: #014040;
+  margin: 1px 430px 10px 10px;
+  padding: 6px;
+  border: solid 1px gold;
+  background-image: url("https://preview.ibb.co/nGsGp5/free_strass_vector_gold_glitter_texture_on_black_background.jpg");
+}
+
+.first-p__title {
+  color: gold;
+  font-size: 19px;
+}
+#quote {
+  color: #a4fefe;
+  background-color: #014040;
+  margin: 5px 410px 50px 450px;
+  padding: 10px;
+  border: solid 1px gold;
+  background-image: url("https://preview.ibb.co/nGsGp5/free_strass_vector_gold_glitter_texture_on_black_background.jpg");
+}
+#info {
+  background-color: #014040;
+  margin: 5px 400px 10px 400px;
+  padding: 10px 10px 10px 10px;
+  color: #a4fefe;
+  border: solid 1px gold;
+  background-image: url("https://preview.ibb.co/nGsGp5/free_strass_vector_gold_glitter_texture_on_black_background.jpg");
+}
+
+.wiki {
+  color: gold;
+}
+
+li {
+  margin-top: 10px;
+}
+
