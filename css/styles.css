@@ -1,6 +1,7 @@
 body {
   margin-top: 40px;
   background-image: url("https://preview.ibb.co/fwiVc5/Beautiful_Golden_Glitter_Background.jpg");
+  
 }
 .main-title {
   text-align: center;
@@ -16,6 +17,7 @@ body {
   padding: 5px;
   margin: 1px 1px 50px 1px;
   border: solid 1px gold;
+  opacity:0.9;
 }
 .logo {
   display: block;
@@ -25,6 +27,7 @@ body {
   border: solid 1px gold;
 }
 .panel, #flip {
+  opacity:0.8;
   padding: 5px;
   text-align: center;
   background-color: #014040;
@@ -46,9 +49,11 @@ body {
   margin-left: 10px;
   float: right;
   border: solid 1px gold;
+  
 }
 
 .first-p {
+  opacity:0.8;
   font-size: 1em;
   color: #a4fefe;
   font-family: bodoni;
@@ -64,6 +69,7 @@ body {
   font-size: 19px;
 }
 #quote {
+  opacity:0.8;
   color: #a4fefe;
   background-color: #014040;
   margin: 5px 410px 50px 450px;
@@ -78,6 +84,7 @@ body {
   color: #a4fefe;
   border: solid 1px gold;
   background-image: url("https://preview.ibb.co/nGsGp5/free_strass_vector_gold_glitter_texture_on_black_background.jpg");
+  opacity:0.8;
 }
 
 .wiki {
