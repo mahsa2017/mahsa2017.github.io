@@ -5,7 +5,7 @@
 </script>
 <script>
   $(document).ready(function() {
-    $("#flip").hover(function() {
+    $(".flip").hover(function() {
       $(".panel").slideToggle("slow");
     });
     $("#image").hover(function() {
@@ -27,7 +27,7 @@
   <link rel='stylesheet' href='css/styles.css' />
 </head>
 <body>
-  <div id="header" class="bord">
+  <div  class="header bord">
     <img class="logo bord" src="https://preview.ibb.co/cGaJEk/6994ebdb46ebec5a8114a67d8bd7cc35.jpg" alt="versace-logo" />
     <div class="main-title" onmouseover="style.color='gold'" onmouseout="style.color='black'">V E R S A C E</div>
   </div>
@@ -35,7 +35,7 @@
     <div>
       <img id="image" class="bord" src="https://image.ibb.co/gNb3x5/kate_moss_and_versace_spring_2009_rtw_heart_dress_gallery.jpg" onmouseover="baw()" onmouseout="color()" alt="kate-moss" />
     </div>
-    <div class="first-p opac bg-color bg-img bord">
+    <div class="first-p opac bg-img bord">
       <ul>
         <div class="first-p__title">History and operations</div>
         <li> In 1972, Gianni Versace designed his first collections for Callaghan, Genny, and Complice.</li>
@@ -52,17 +52,17 @@
         <li>As of 2016, more than 1500 boutiques operate worldwide; the first boutique outside of Italy was opened in Glasgow, Scotland in 1991.</li>
       </ul>
     </div>
-    <div id="flip" class="bg-img bord opac"> Versace Facts </div>
-    <div class="panel opac bg-img bord ">Within 10 years, Versace had built a fashion empire worth more than $800 million.</br>
+    <div  class="flip font-marg bg-img bord opac"> Versace Facts </div>
+    <div class="panel font-marg opac bg-img bord ">Within 10 years, Versace had built a fashion empire worth more than $800 million.</br>
       Versace designed stage costumes for pop stars including Elton John and Madonna.</br>
       During his lifetime, Versace published several books including The Art of Being You and Men Without Ties.</div>
     <div>
-      <blockquote id="quote" class=" bg-img bord opac">
+      <blockquote  class="quote bg-img bord opac">
         <h3>"That is the key of this collection, being yourself. Don't be into trends. Don't make fashion own you, but you decide what you are, what you want to express by the way you dress and the way to live."</h3>
         <footer> <cite>Gianni Versace </footer></cite> </blockquote>
     </div>
   </div>
-  <div id="info" class="bg-img bord opac">
+  <div class="info bg-img bord opac">
     <center> for further information <a style="color:white;" href="https://en.wikipedia.org/wiki/Versace" target="_blank" onmouseover="style.color='#C8F6F4'" onmouseout="style.color='#a4fefe'">VERSACE Wikipedia</a></center>
   </div>
   </div>
