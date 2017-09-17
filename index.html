@@ -1,15 +1,7 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <!--my css-->
-  <link rel='stylesheet' href='css/styles.css' />
-  <!--Google font-->
-  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Oswald'>
-
-      <title>Welcome to VERSACE </title>
+<html>
+<head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-
 </script>
 <script>
   $(document).ready(function() {
@@ -17,10 +9,11 @@
       $(".panel").slideToggle("slow");
     });
     $("#image").hover(function() {
-      $("#image").fadeToggle(4000);
-      $(".logo").fadeToggle(4000);
-    });
+     $("#image").fadeToggle(4000);
+     $(".logo").fadeToggle(4000);
+   });
   });
+  
   function color() {
     document.getElementById("image").src =
       "https://image.ibb.co/gNb3x5/kate_moss_and_versace_spring_2009_rtw_heart_dress_gallery.jpg";
@@ -30,6 +23,8 @@
       "https://image.ibb.co/g0h6rk/imageedit_2_5198456048.jpg";
   }
 </script>
+    <!--my css-->
+  <link rel='stylesheet' href='css/styles.css' />
 </head>
 <body>
   <div id="header" class="bord">
