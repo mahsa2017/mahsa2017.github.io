@@ -6,12 +6,15 @@ body {
   margin-top: 40px;
   background-image: url("https://preview.ibb.co/fwiVc5/Beautiful_Golden_Glitter_Background.jpg");
 }
+li {
+  margin-top: 10px;
+}
 .main-title {
   color: black;
   font-size: 40px;
   padding: 6px 10px 10px 10px;
 }
-#header {
+.header {
   background-image: url("http://www.elranchodesalva.com/wp-content/uploads/2015/11/shiny-gold-wavy-texture-abstract-background-header.jpg");
   padding: 5px;
   margin: 1px 1px 50px 1px;
@@ -22,20 +25,18 @@ body {
   border-radius: 50%;
   width: 100px;
 }
-.panel, #flip {
+ .flip {
   padding: 5px;
+  }
+.font-marg{
   font-size: 1.1em;
   margin: 5px 800px 0px 10px;
 }
 .panel {
   padding: 10px;
-  display: none;
+  display: none; 
 }
-#image {
-  width: 400px;
-  margin-left: 10px;
-  float: right;
-}
+
 .first-p {
   font-size: 1.1em;
   margin: 1px 430px 10px 10px;
@@ -45,17 +46,15 @@ body {
   font-style: bold;
   font-size: 22px;
 }
-#quote {
+.quote {
   margin: 5px 410px 50px 450px;
   padding: 10px;
 }
-#info {
+.info {
   margin: 5px 400px 10px 400px;
   padding: 10px 10px 10px 10px;
 }
-li {
-  margin-top: 10px;
-}
+
 .bg-img {
   background-image: url("https://preview.ibb.co/nGsGp5/free_strass_vector_gold_glitter_texture_on_black_background.jpg");
 }
@@ -65,4 +64,8 @@ li {
 .opac {
   opacity: 0.8;
 }
-
+#image {
+  width: 400px;
+  margin-left: 10px;
+  float: right;
+}
