@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-</script>
-<script>
-  $(document).ready(function() {
-    $(".flip").hover(function() {
-      $(".panel").slideToggle("slow");
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".flip").hover(function () {
+        $(".panel").slideToggle("slow");
+      });
+      $("#image").hover(function () {
+        $("#image").fadeToggle(4000);
+        $(".logo").fadeToggle(4000);
+      });
     });
-    $("#image").hover(function() {
-     $("#image").fadeToggle(4000);
-     $(".logo").fadeToggle(4000);
-   });
-  });
-  
-  function color() {
-    document.getElementById("image").src =
-      "https://image.ibb.co/gNb3x5/kate_moss_and_versace_spring_2009_rtw_heart_dress_gallery.jpg";
-  }
-  function baw() {
-    document.getElementById("image").src =
-      "https://image.ibb.co/g0h6rk/imageedit_2_5198456048.jpg";
-  }
-</script>
-    <!--my css-->
+
+    function color() {
+      document.getElementById("image").src =
+        "https://image.ibb.co/gNb3x5/kate_moss_and_versace_spring_2009_rtw_heart_dress_gallery.jpg";
+    }
+    function baw() {
+      document.getElementById("image").src =
+        "https://image.ibb.co/g0h6rk/imageedit_2_5198456048.jpg";
+    }
+  </script>
+  <!--my css-->
   <link rel='stylesheet' href='css/styles.css' />
 </head>
+
 <body>
-  <div  class="header bord">
+  <div class="header bord">
     <img class="logo bord" src="https://preview.ibb.co/cGaJEk/6994ebdb46ebec5a8114a67d8bd7cc35.jpg" alt="versace-logo" />
     <div class="main-title" onmouseover="style.color='gold'" onmouseout="style.color='black'">V E R S A C E</div>
   </div>
   <div>
     <div>
-      <img id="image" class="bord" src="https://image.ibb.co/gNb3x5/kate_moss_and_versace_spring_2009_rtw_heart_dress_gallery.jpg" onmouseover="baw()" onmouseout="color()" alt="kate-moss" />
+      <img id="image" class="bord" src="https://image.ibb.co/gNb3x5/kate_moss_and_versace_spring_2009_rtw_heart_dress_gallery.jpg"
+        onmouseover="baw()" onmouseout="color()" alt="kate-moss" />
     </div>
     <div class="first-p opac bg-img bord">
       <ul>
@@ -41,30 +44,44 @@
         <li> In 1972, Gianni Versace designed his first collections for Callaghan, Genny, and Complice.</li>
         <li>In 1978, the company launched under the name "Gianni Versace Donna.</li>
         <li> The first Versace boutique was opened in Milan's Via della Spiga in 1978.</li>
-        <li>Versace was one of the few independent designers who was in control of everything about the brand, from designing to retailing.</li>
+        <li>Versace was one of the few independent designers who was in control of everything about the brand, from designing
+          to retailing.</li>
         <li>In 1982, the company expanded into the accessory, jewelry, home furnishing, and china industries. </li>
         <li>In 1993, Donatella Versace created the "Young Versace" line as well as "Versus.</li>
-        <li>In 1994, the brand gained widespread international coverage due to the "Black Versace dress of Elizabeth Hurley", referred to at the time as "that dress". </li>
-        <li>After the murder of Gianni Versace in 1997, his sister Donatella Versace, formerly vice-president, took over as creative director and his older brother Santo Versace became CEO. </li>
-        <li>In 2000, the "green Versace dress" worn by Jennifer Lopez at the 42nd Annual Grammy Awards gained a lot of media attention, being voted as the "fifth most iconic dress of all time" in 2008, with Hurley's 1994 dress being voted first in a Daily
-          Telegraph poll.
+        <li>In 1994, the brand gained widespread international coverage due to the "Black Versace dress of Elizabeth Hurley",
+          referred to at the time as "that dress". </li>
+        <li>After the murder of Gianni Versace in 1997, his sister Donatella Versace, formerly vice-president, took over as creative
+          director and his older brother Santo Versace became CEO. </li>
+        <li>In 2000, the "green Versace dress" worn by Jennifer Lopez at the 42nd Annual Grammy Awards gained a lot of media
+          attention, being voted as the "fifth most iconic dress of all time" in 2008, with Hurley's 1994 dress being voted
+          first in a Daily Telegraph poll.
         </li>
-        <li>As of 2016, more than 1500 boutiques operate worldwide; the first boutique outside of Italy was opened in Glasgow, Scotland in 1991.</li>
+        <li>As of 2016, more than 1500 boutiques operate worldwide; the first boutique outside of Italy was opened in Glasgow,
+          Scotland in 1991.</li>
       </ul>
     </div>
-    <div  class="flip font-marg bg-img bord opac"> Versace Facts </div>
+    <div>
+      <blockquote class="quote bg-img bord opac">
+        <h3>"That is the key of this collection, being yourself. Don't be into trends. Don't make fashion own you, but you decide
+          what you are, what you want to express by the way you dress and the way to live."</h3>
+        <footer>
+          <cite>Gianni Versace </footer>
+        </cite>
+      </blockquote>
+    </div>
+    <div class="flip font-marg bg-img bord opac"> Versace Facts </div>
     <div class="panel font-marg opac bg-img bord ">Within 10 years, Versace had built a fashion empire worth more than $800 million.</br>
       Versace designed stage costumes for pop stars including Elton John and Madonna.</br>
       During his lifetime, Versace published several books including The Art of Being You and Men Without Ties.</div>
-    <div>
-      <blockquote  class="quote bg-img bord opac">
-        <h3>"That is the key of this collection, being yourself. Don't be into trends. Don't make fashion own you, but you decide what you are, what you want to express by the way you dress and the way to live."</h3>
-        <footer> <cite>Gianni Versace </footer></cite> </blockquote>
-    </div>
+
   </div>
   <div class="info bg-img bord opac">
-    <center> for further information <a style="color:white;" href="https://en.wikipedia.org/wiki/Versace" target="_blank" onmouseover="style.color='#C8F6F4'" onmouseout="style.color='#a4fefe'">VERSACE Wikipedia</a></center>
+    <center> for further information
+      <a style="color:white;" href="https://en.wikipedia.org/wiki/Versace" target="_blank" onmouseover="style.color='#C8F6F4'"
+        onmouseout="style.color='#a4fefe'">VERSACE Wikipedia</a>
+    </center>
   </div>
   </div>
 </body>
+
 </html>

@@ -1,4 +1,6 @@
 body {
+  width: 70%;
+  margin: auto;
   font-family:bodoni;
   font-style: bold;
   text-align: center;
@@ -16,8 +18,8 @@ li {
 }
 .header {
   background-image: url("http://www.elranchodesalva.com/wp-content/uploads/2015/11/shiny-gold-wavy-texture-abstract-background-header.jpg");
-  padding: 5px;
-  margin: 1px 1px 50px 1px;
+  padding: 3px;
+  margin: 1px 1px 5px 1px;
 }
 .logo {
   display: block;
@@ -26,33 +28,52 @@ li {
   width: 100px;
 }
  .flip {
-  padding: 5px;
+  padding: 3px;
+  width: 50%;
+  margin: 3px 1px;
+  /* float: left; */
+  /* clear: both; */
   }
 .font-marg{
-  font-size: 1.1em;
-  margin: 5px 800px 0px 10px;
+  /* font-size: 1.1em; */
+  /* margin: 5px 800px 0px 10px; */
 }
 .panel {
-  padding: 10px;
-  display: none; 
+  padding: 4px;
+  display: none;
+  width: 50%;
+  /* clear: both; */
+  /* float: left; */
 }
 
 .first-p {
+  /* float: left; */
   font-size: 1.1em;
-  margin: 1px 430px 10px 10px;
-  padding: 6px;
+  /* margin: 1px 10px 10px 10px; */
+  padding: 0px 5px 0px 5px;
+  text-align: left;
+  /* clear: both; */
+  /* height: 50%; */
 }
 .first-p__title {
   font-style: bold;
   font-size: 22px;
 }
 .quote {
-  margin: 5px 410px 50px 450px;
-  padding: 10px;
+  margin: 3px 0 3px 0;
+  /* padding: 10px; */
+  width: 45%;
+  float: right;
+  /* margin-top: 1px; */
 }
 .info {
-  margin: 5px 400px 10px 400px;
+  /* margin: 5px 195px 10px 195px; */
   padding: 10px 10px 10px 10px;
+  width: 97%;
+  margin: auto;
+  /* float: right; */
+  clear: both;
+  /* display: block; */
 }
 
 .bg-img {
@@ -62,10 +83,12 @@ li {
   border: solid 1px gold;
 }
 .opac {
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 #image {
-  width: 400px;
-  margin-left: 10px;
+  width: 36%;
+  /* padding: 0px 0; */
+  /* margin: 0px 1px 1px 5px; */
   float: right;
+  /* position: absolute; */
 }
